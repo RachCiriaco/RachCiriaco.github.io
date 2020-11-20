@@ -157,7 +157,10 @@ body {
 
     .hero-video {
         background-color: black;
-        bacground-image: url
+        bacground-image: url;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     .hero-text-box {
