@@ -63,12 +63,13 @@ body {
         text-decoration: none;
         letter-spacing: 0.2rem;
         padding: 0.8rem;
-        color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255)
     }
 
     .logo a {
         font-weight: bold;
         font-size: 2rem;
+        font-family: cursive;
     }
 
     .logo {
@@ -216,9 +217,14 @@ body {
     }
 
     .about-text h1 {
-        font-size: 2rem;
+        font-size: 1rem;
         line-height: 2rem;
-    
+        font-family: cursive;
+
+    }
+
+    .about-text h2 {
+        font-family: cursive;
     }
 
     .about-image img {
@@ -254,7 +260,7 @@ body {
 
     .footer-copyright {
         text-align: center;
-        padding-bottom: 6rem;
+        padding-bottom: 1rem;
     }
 
     /* Add Media Querie for Large Screens  */
@@ -344,4 +350,8 @@ body {
         .footer-nav {
             justify-content: space-evenly;
         }
+    }
+
+    .h1 {
+        font-family: cursive;
     }
